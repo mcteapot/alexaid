@@ -12,8 +12,8 @@ jQuery(document).ready(function($) {
     var tempObject = $(".graphic")[0];
     TweenMax.from(tempObject, .5, {scale:0.2, opacity:0.3});
 
-    var badgeObject = $(".event-health-badge")[0];
-    TweenMax.to(badgeObject, 1, {transformMatrix:{scaleX:2, scaleY:2, rotation:30}});
+    var bottleObject = $(".event-health-bottle")[0];
+    TweenMax.to(bottleObject, 2, {top:"+=25px", repeat:-1, yoyo:true});
 
    //TweenMax.to(badgeObject, -1, {rotation:"360", ease:Linear.easeNone, repeat:10});
     prepopulateParticles();
@@ -45,4 +45,5 @@ jQuery(document).ready(function($) {
 			emitNewParticle();
 		});
     }
+
 });
