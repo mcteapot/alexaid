@@ -289,10 +289,22 @@ line-height: 2.1em;
 
 #event-location .address {
     line-height: 2.1em;
+    cursor:pointer;
 }
 
 #event-location .homepage {
     line-height: 2.5em;
+    cursor:pointer;
+}
+
+#event-location .social-faceook {
+    line-height: 2.5em;
+    cursor:pointer;
+}
+
+#event-location .social-google {
+    line-height: 2.5em;
+    cursor:pointer;
 }
 
 a {
