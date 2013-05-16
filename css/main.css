@@ -13,6 +13,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    text-transform: uppercase;
 }
 
 ::-moz-selection {
@@ -62,6 +63,7 @@ textarea {
 
 body {
     font: 16px/26px Helvetica, Helvetica Neue, Arial;
+    font-family: 'Press Start 2P', Arial, Helvetica;
 }
 
 .wrapper {
