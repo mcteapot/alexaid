@@ -172,7 +172,10 @@ nav a:hover {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+.particle-container {
+    height: 100%;
+    width: 100%;
+}
 .header-container {
     text-align: center;
     padding-top: 1em;
@@ -291,12 +294,20 @@ nav a:hover {
 }
 
 #event-details {
-text-align: left;
-width: 29em;
-/*background: gray;*/
-margin: 0 auto;
-margin-top: 1em;
-line-height: 2.1em;
+    text-align: left;
+    width: 27em;
+    /*background: gray;*/
+    margin: 0 auto;
+    margin-top: 1em;
+    line-height: 2.1em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-left: -31px;
 }
 
 #event-details ul {

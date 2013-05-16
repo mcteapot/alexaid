@@ -34,7 +34,7 @@ jQuery(document).ready(function($) {
 		return Math.floor(Math.random()*parseInt($('body').width()) - 20);
     }
     function emitParticle(top, left){
-		var ptc = $("<div class='particle'></div>").appendTo('body');
+		var ptc = $("<div class='particle'></div>").appendTo('#particle-container');
 		var opacity = Math.random();
 		// $(ptc).css({position: "absolute", width: "4px", height: "4px",top:top, left: left});
 		var targetTop = top - 800;
