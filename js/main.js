@@ -12,4 +12,9 @@ jQuery(document).ready(function($) {
     var tempObject = $(".graphic")[0];
     TweenMax.to(tempObject, 0, {scale:0.2, opacity:0.3});
     TweenMax.to(tempObject, .4, { scale:1, opacity:1});
+
+    var badgeObject = $(".event-health-badge")[0];
+    TweenMax.to(badgeObject, 1, {transformMatrix:{scaleX:2, scaleY:2, rotation:30}});
+
+   //TweenMax.to(badgeObject, -1, {rotation:"360", ease:Linear.easeNone, repeat:10});
 });

@@ -193,9 +193,6 @@ nav a:hover {
     color: #ee343f;
 }
 
-.event-health-copy {
-     position: absolute;
-}
 .space-name {
     font-size: 1.2em;
 }
@@ -210,6 +207,7 @@ nav a:hover {
     height: 294px;
     position: relative;
     top: -102px;
+    left: -1px;
 }
 .event-health-banner {
     background-image: url(../img/health_banner.png);
@@ -246,15 +244,23 @@ nav a:hover {
     left: 265px;
     top: 8px;/*rotation*/
 
-    -webkit-transform: rotate(11deg);
-    -moz-transform: rotate(11deg);
-    -o-transform: rotate(11deg);
-    -ms-transform: rotate(11deg);
     background-image: url(../img/health_badge.png);
     width: 108px;
     height: 102px;
 }
+.event-health-copy {
+    font-size: .6em;
+    width: 10em;
+    line-height: 2em;
+    position: relative;
+    left: 270px;
+    top: -60px;/*rotation*/
+    -webkit-transform: rotate(11deg);
+    -moz-transform: rotate(11deg);
+    -o-transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
 
+}
 .event-health-badge .line-1 {
     padding-top: 34px;
 }
