@@ -182,12 +182,6 @@ nav a:hover {
 #event-health {
 
 }
-.event-health-banner {
-    background-image: url(../img/health_banner.png);
-    width: 706px;
-    height: 126px;
-    position: absolute;
-}
 
 .main-container article{
     text-align: center;
@@ -212,45 +206,57 @@ nav a:hover {
 
 .event-health-bottle {
     background-image: url(../img/health_bottle.png);
-    width: 372px;
-    height: 514px;
-    position: absolute;
+    width: 409px;
+    height: 294px;
+    position: relative;
+    top: -102px;
+}
+.event-health-banner {
+    background-image: url(../img/health_banner.png);
+    width: 409px;
+    height: 74px;
+    position: relative;
+    top: -216px;
 }
 .event-subtitle {
     font-size: .6em;
 }
 
 .graphic {
-    width: 320px;
-    height: 270px;
+    width: 409px;
+    height: 294px;
     margin: 0 auto;
-    background: gray;
+    /*background: gray;*/
+}
+
+.banner {
+    color:black;
+    font-size: 0.7em;
+    line-height: 1.6em;
 }
 .banner .line-1 {
-    margin-top: 122px;
+    padding-top: 30px;
 }
-.sticker {
-    background: red;
+
+.event-health-badge {
     font-size: .6em;
     width: 10em;
     line-height: 2em;
     position: relative;
-    left: 229px;
-    top: 30px;
-    /*rotation*/
-    padding: 4px 0px;
+    left: 265px;
+    top: 8px;/*rotation*/
+
     -webkit-transform: rotate(11deg);
     -moz-transform: rotate(11deg);
     -o-transform: rotate(11deg);
     -ms-transform: rotate(11deg);
+    background-image: url(../img/health_badge.png);
+    width: 108px;
+    height: 102px;
 }
 
-.event-health-badge {
-    background-image: url(../img/health_badge.png);
-    width: 213px;
-    height: 213px;
-
-    position: absolute;
+.event-health-badge .line-1 {
+    padding-top: 34px;
 }
 
 .medium {
