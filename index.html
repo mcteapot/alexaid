@@ -28,39 +28,51 @@
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
-
+    <div class="body-wrapper">
         <div class="header-container">
             <header class="wrapper clearfix">
-                <h2 class="space-name center">glitch city</h2>
-                <h1 class="event-name center">game night</h1>
-                <h3 class="event-subtitle center">analog and digital gaming</h3>
-
+                <div class="space-name center red-text">glitch city</div>
+                <div class="event-name large-text center">game night</div>
+                <div class="event-subtitle center medium-text red-text">analog and digital gaming</div>
+<!-- 
+                <nav>
+                    <ul>
+                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">nav ul li a</a></li>
+                        <li><a href="#">nav ul li a</a></li>
+                    </ul>
+                </nav>
+ -->
             </header>
         </div>
 
         <div class="main-container">
-            <div class="main wrapper clearfix">
+            <div class="">
 
                 <article>
-                    <section id="event-health">
-                    	<div class="event-health-badge"></div>
-                    	<div class="event-health-copy">special event</div>
-						<div class="event-health-bottle"></div>
-                    	<div class="event-health-banner"></div>
+                    <section class="graphic">
+                        <div class="sticker">
+                            <div class="line-1">special</div>
+                            <div class="line-2">edition</div>
+                        </div>
+                        <div class="banner small">
+                            <div class="line-1">a fundraiser to</div>
+                            <div class="line-2">keep our friend alive</div>
+                        </div>
                     </section>
-                    <section id="event-time">
-                        <div class="date"> wed may 22 </div>                    
+                    <section id="event-time" class="medium">
+                        <div class="date "> wed may 22 </div>                    
                         <div class="time"> 7pm - late </div>
                     </section>
-                    <section id="event-details">
+                    <section id="event-details" class="small">
                         <div class="details-title">featuring: </div>
-                        <ol>
+                        <ul>
                             <li>johann sebastian joust</li>
                             <li>competitive indie games</li>
                             <li>smash bros tournament</li>
                             <li>boardgame bonanza</li>
                             <li>oculus rift demos</li>
-                        </ol>
+                        </ul>
                     </section>
                     <footer>
                     </footer>
@@ -71,10 +83,14 @@
 
         <div class="footer-container">
             <footer class="wrapper">
-                <section id="event-location">
-                <div class="address1"> 8714 washington blvd </div>
-                <div class="address2"> culver city, ca 90232 </div>
-                <div class="address2"> glitchcityla.tumbler.com </div>
+                <section id="event-location" class="small">
+                    <div class="address">
+                        <div class="line-1"> 8714 washington blvd </div>
+                        <div class="line-2"> culver city, ca 90232 </div>
+                    </div>
+                    <div class="homepage">
+                        <a href="http://glitchcityla.tumblr.com" class="address2"> glitchcityla.tumbler.com </a> 
+                    </div>
                     </section>
             </footer>
         </div>
@@ -90,5 +106,6 @@
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
+    </div>
     </body>
 </html>
