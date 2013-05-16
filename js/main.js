@@ -40,7 +40,7 @@ jQuery(document).ready(function($) {
 		var targetTop = top - 800;
 		var distanceRatio = top / parseInt($('body').height());
 		var floatDuration = (100000 - 80000*(opacity)) * distanceRatio;
-		$(ptc).css({top:top, left: left, opacity: opacity}).animate({top: 10}, floatDuration, "linear", function(){ 
+		$(ptc).css({top:top, left: left, opacity: opacity}).animate({top: -10}, floatDuration, "linear", function(){ 
 			$(this).remove(); 
 			emitNewParticle();
 		});
