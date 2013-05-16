@@ -334,6 +334,13 @@ a {
     color: white;
 }
 
+.particle {
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: white;
+}
+
 
 
 
