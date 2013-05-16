@@ -200,7 +200,7 @@ nav a:hover {
     font-size: 1.2em;
 }
 .event-name {
-    font-size: 1.8em;
+    font-size: 2.6em;
     margin: 0.4em 0;
 }
 
@@ -293,24 +293,35 @@ line-height: 2.1em;
     margin-top: 0;
 }
 
+#event-location {
+    top: 10px;
+    position: relative;
+}
+
 #event-location .address {
-    line-height: 2.1em;
+    line-height: 1.5em;
     cursor:pointer;
+    font-size: 1.5em;
+    color: #95EC00;
 }
 
 #event-location .homepage {
-    line-height: 2.5em;
+    line-height: 4.5em;
     cursor:pointer;
 }
 
-#event-location .social-faceook {
+#event-location .social-faceook a{
     line-height: 2.5em;
     cursor:pointer;
+    text-decoration: none;
+    color: rgb(0, 179, 236);
 }
 
-#event-location .social-google {
-    line-height: 2.5em;
+#event-location .social-google a {
+    line-height: 1.5em;
     cursor:pointer;
+    text-decoration: none;
+    color: rgb(255, 255, 0);
 }
 
 a {
