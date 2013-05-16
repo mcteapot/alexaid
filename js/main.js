@@ -13,10 +13,14 @@ jQuery(document).ready(function($) {
     TweenMax.from(tempObject, .5, {scale:0.2, opacity:0.3});
 
     var bottleObject = $(".event-health-bottle")[0];
-    TweenMax.to(bottleObject, 2, {top:"+=25px", repeat:-1, yoyo:true});
+    TweenMax.to(bottleObject, 2, {top:"-=15px", repeat:-1, yoyo:true, ease: Linear.easeInOut});
 
    //TweenMax.to(badgeObject, -1, {rotation:"360", ease:Linear.easeNone, repeat:10});
     prepopulateParticles();
+
+    $('.ticket-link').click(function(){
+    	window.open("http://www.gofundme.com/ailingalex", '_blank')
+    })
 
 	function emitNewParticle(){
 

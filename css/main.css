@@ -357,6 +357,9 @@ a {
     background: white;
 }
 
+.ticket-link:hover {
+    cursor: pointer;
+}
 
 
 
