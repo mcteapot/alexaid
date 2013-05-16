@@ -143,7 +143,7 @@ nav a:hover {
 .footer-container footer {
     color: white;
     padding: 20px 0;
-    font-family: 'Press Start 2P', Arial, Helvetica;
+    font-family: '04b03', Arial, Helvetica;
 
 }
 
@@ -244,7 +244,7 @@ nav a:hover {
    ============ */
 
     .main article {
-        font-family: 'Press Start 2P', Arial, Helvetica;
+        font-family: '04b03', Arial, Helvetica;
         float: left;
         width: 57%;
     }
