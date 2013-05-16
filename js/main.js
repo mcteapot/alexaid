@@ -37,6 +37,7 @@ jQuery(document).ready(function($) {
     function getRandomX(){
 		return Math.floor(Math.random()*parseInt($('body').width()) - 20);
     }
+    
     function emitParticle(top, left){
 		var ptc = $("<div class='particle'></div>").appendTo('#particle-container');
 		var opacity = Math.random();
