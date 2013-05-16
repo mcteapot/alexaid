@@ -243,7 +243,10 @@ nav a:hover {
     position: relative;
     left: 265px;
     top: 8px;/*rotation*/
-
+    -webkit-transform: rotate(11deg);
+    -moz-transform: rotate(11deg);
+    -o-transform: rotate(11deg);
+    -ms-transform: rotate(11deg);
     background-image: url(../img/health_badge.png);
     width: 108px;
     height: 102px;
