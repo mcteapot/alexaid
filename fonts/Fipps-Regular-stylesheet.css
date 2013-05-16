@@ -1,0 +1,11 @@
+
+@font-face {
+  font-family: 'Fipps-Regular';
+  src: url('Fipps-Regular.eot'); /* IE9 Compat Modes */
+  src: url('Fipps-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fipps-Regular.woff') format('woff'), /* Modern Browsers */
+       url('Fipps-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fipps-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-weight: normal;
+  font-style: normal;
+}
