@@ -40,11 +40,12 @@ jQuery(document).ready(function($) {
     function emitParticle(top, left){
 		var ptc = $("<div class='particle'></div>").appendTo('#particle-container');
 		var opacity = Math.random();
+    	var size = Math.floor( 1 + 8*opacity);
 		// $(ptc).css({position: "absolute", width: "4px", height: "4px",top:top, left: left});
 		var targetTop = top - 800;
 		var distanceRatio = top / parseInt($('body').height());
 		var floatDuration = (100000 - 80000*(opacity)) * distanceRatio;
-		$(ptc).css({top:top, left: left, opacity: opacity}).animate({top: -10}, floatDuration, "linear", function(){ 
+		$(ptc).css({top:top, left: left, opacity: opacity, width: size, height: size}).animate({top: -10}, floatDuration, "linear", function(){ 
 			$(this).remove(); 
 			emitNewParticle();
 		});

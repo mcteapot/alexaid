@@ -352,9 +352,9 @@ a {
 
 .particle {
     position: absolute;
-    width: 6px;
+/*    width: 6px;
     height: 6px;
-    background: white;
+*/    background: white;
 }
 
 .ticket-link:hover {
